@@ -10,8 +10,7 @@
         {
             sum += ( (num1 % 10) * (num2 % 10));
             num2 = num2 / 10;
-        }
-        
+        } 
         num1 = num1/10;
         num2 = num2 / 10;
         
@@ -29,6 +28,5 @@ int main(){
     
      printf("%d", sop(num1,num2) ); 
 
-    return 0;
-    
+    return 0;  
 }
